@@ -1,6 +1,6 @@
 import { createBrowserRouter, redirect } from "react-router-dom"
-import { TodoList } from "../pages/TodoList"
-import { NewTodo } from "../pages/NewTodo"
+import { TodoList } from "./pages/TodoList"
+import { NewTodo } from "./pages/NewTodo"
 
 export const router = createBrowserRouter([
   {
